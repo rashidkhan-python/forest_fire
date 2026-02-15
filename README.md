@@ -28,7 +28,6 @@ This project takes 9 weather/environment input features from a web form, scales 
 .
 ├── application.py
 ├── README.md
-├── text.txt
 ├── dataset/
 │   └── Algerian_forest_fires_cleaned_dataset.csv
 ├── models/
