@@ -1,7 +1,4 @@
 '''text
-Folder PATH listing
-Volume serial number is D630-173C
-C:.
 |   application.py
 |   rashid.md
 |   README.md
