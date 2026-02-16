@@ -8,8 +8,8 @@ app = Flask(__name__)
 
 # Importing pickel file (Models, StandardScaler)
 
-ridge = pickle.load(open(r'C:\Users\Rashid\Desktop\UKDlDs\Basic ML Project\models\ridge.pkl','rb'))
-scaler = pickle.load(open(r'C:\Users\Rashid\Desktop\UKDlDs\Basic ML Project\models\scaler.pkl','rb'))
+ridge = pickle.load(open(r'models\ridge.pkl','rb'))
+scaler = pickle.load(open(r'models\scaler.pkl','rb'))
 
 @app.route('/')
 def index():
